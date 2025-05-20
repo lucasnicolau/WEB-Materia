@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Produtos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    form {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    input, button {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    .produto-card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .produto-card button {
+      background-color: #dc3545;
+    }
+    .produto-card button:hover {
+      background-color: #c82333;
+    }
+    #resultado-busca {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Produtos Importados</h1>
+
+  <form id="form-produto">
+    <h2>Adicionar Produto</h2>
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="text" id="descricao" placeholder="Descrição" required>
+    <input type="number" id="preco" placeholder="Preço" required>
+    <input type="text" id="categoria" placeholder="Categoria" required>
+    <button type="submit">Adicionar Produto</button>
+  </form>
+
+  <form id="form-busca-id">
+    <h2>Buscar Produto por ID</h2>
+    <input type="number" id="id-busca" placeholder="ID do produto" required>
+    <button type="submit">Buscar</button>
+  </form>
+  <div id="resultado-busca"></div>
+
+  <h2>Lista de Produtos</h2>
+  <div id="lista-produtos"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

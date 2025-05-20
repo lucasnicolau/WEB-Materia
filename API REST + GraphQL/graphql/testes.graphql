@@ -1,0 +1,30 @@
+query VerProdutos {
+  produtos {
+    id
+    nome
+  }
+}
+
+query VerProdutoID{
+  produto(id: 1) {
+    nome
+    preco
+    descricao
+  }
+}
+
+mutation CriarProduto {
+  adicionarProduto(
+    nome: "iPad",
+    descricao: "Tablet Apple",
+    preco: 3500,
+    categoria: "Tablets"
+  ) {
+    id
+    nome
+  }
+}
+
+mutation DeletarProduto{
+  deletarProduto(id: 1)
+}

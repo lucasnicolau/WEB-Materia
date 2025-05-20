@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome": "iPhone 14",
+    "descricao": "Smartphone Apple com 128GB",
+    "preco": 5200,
+    "categoria": "Celulares"
+  },
+  {
+    "id": 4,
+    "nome": "sansung galaxy s25",
+    "descricao": "azul",
+    "preco": 4800,
+    "categoria": "Celulares"
+  },
+  {
+    "id": 5,
+    "nome": "PS5",
+    "descricao": "Console",
+    "preco": 3200,
+    "categoria": "Jogos"
+  },
+  {
+    "id": 2,
+    "nome": "Xbox Series S",
+    "descricao": "Console",
+    "preco": 2400,
+    "categoria": "Jogos"
+  },
+  {
+    "id": 3,
+    "nome": "Xiaomi Poco x7 Pro",
+    "descricao": "512GB",
+    "preco": 2300,
+    "categoria": "Celulares"
+  }
+]

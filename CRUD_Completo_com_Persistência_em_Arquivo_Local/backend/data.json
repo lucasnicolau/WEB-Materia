@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nome": "iPhone 14",
+    "descricao": "Smartphone Apple",
+    "preco": 5200,
+    "categoria": "Celulares"
+  },
+  {
+    "id": 3,
+    "nome": "ps5",
+    "descricao": "Console",
+    "preco": 3200,
+    "categoria": "Jogos"
+  },
+  {
+    "id": 2,
+    "nome": "sansung galaxy s25",
+    "descricao": "azul",
+    "preco": 7000,
+    "categoria": "celulares"
+  },
+  {
+    "id": 4,
+    "nome": "Xbox Series S",
+    "descricao": "Console",
+    "preco": 2500,
+    "categoria": "celulares"
+  }
+]
